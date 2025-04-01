@@ -20,7 +20,7 @@ A organização dos diretórios segue um padrão que facilita a navegação e en
 
 * Organização dos diretórios para facilitar a manutenção do código.
 
-* Utilizado o controle de versão para subir as melhorias e novas funcionalidades do projeto para o GitHub
+* Utilizado a controle de versão para subir as melhorias e novas funcionalidades do projeto para o GitHub
 
 ## Como Utilizar
 
