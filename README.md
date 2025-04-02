@@ -10,8 +10,10 @@ Este repositório contem os exercícios realizados para o teste de nivelamento. 
 
 ## Estrutura do Repositório
 A organização dos diretórios segue um padrão que facilita a navegação e entendimento do projeto:
-* ```java/``` - Contém as soluções implementadas em Java
-* ```pyhton/``` - Contém as soluções implementadas em Python
+* ```api/``` - Contém a API criada em FastAPI e Vue.JS
+* ```java/``` - Contém a solução do exercicio 1 realizado em Java
+* ```pyhton/``` - Contém as soluções dos exercicios 1 e 2 realizados em Python
+* ```postman collection\``` - Contém a coleção do postman para testar a API
 * ```sql/``` - Scripts SQL para manipulação do banco de dados
 
 ## Princípios Adotados
