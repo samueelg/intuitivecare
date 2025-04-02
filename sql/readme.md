@@ -2,6 +2,22 @@
 
 Este repositório contém diversos scripts SQL utilizados para manipulação e análise de dados relacionados a operadoras e contas contábeis. Abaixo está uma breve descrição de cada arquivo.
 
+## Orientação de Uso
+
+### 1. Rode os arquivos DDL.
+Rode os arquivos DDL em algum software de administração de base de dados. Neste projeto foi utilizado o **DBeaver**
+
+### 2. Faça a transformação do Arquivo `.CSV`
+Ao importar o arquivo `.CSV` para o banco de dados, ocorreu um erro de incompatibilidade de tipos porque os números decimais no arquivo usavam vírgula (",") como separador, enquanto a tabela do banco esperava ponto ("."). Isso gerou um conflito na conversão dos dados.
+
+Execute o seguinte comando dentro do diretório do seu arquivo, utilizando o terminal `GitBash`:
+```bash
+  sed 's/,/./g' seu_arquivo.csv > seu_arquivo_corrigido.csv
+```
+
+### 3. Rode as queries para consultar os dados filtrados
+No DBeaver, rode as queries `operadoras_maiores_despesas_trimestre.sql` e `operadoras_maiores_despesas_ano.sql` para consultar os dados.
+
 ## Arquivos DDL (Definição de Estrutura de Dados)
 
 ### `ddl_conta_contabil.sql`
