@@ -1,0 +1,22 @@
+CREATE TABLE operadoras_ativas (
+    REG_ANS INT PRIMARY KEY,
+    CNPJ VARCHAR(18) NOT NULL,
+    Razao_Social VARCHAR(255) NOT NULL,
+    Nome_Fantasia VARCHAR(255),
+    Modalidade VARCHAR(100),
+    Logradouro VARCHAR(255),
+    Numero VARCHAR(80),
+    Complemento VARCHAR(100),
+    Bairro VARCHAR(100),
+    Cidade VARCHAR(100),
+    UF CHAR(2),
+    CEP VARCHAR(10),
+    DDD CHAR(2),
+    Telefone VARCHAR(20),
+    Fax VARCHAR(20),
+    Endereco_eletronico VARCHAR(255),
+    Representante VARCHAR(255),
+    Cargo_Representante VARCHAR(100),
+    Regiao_de_Comercializacao VARCHAR(255),
+    Data_Registro_ANS DATE
+);
